@@ -6,7 +6,6 @@ from plot_anotate import plot
 def open_image():
     # Input path to your image here
     image_path = "path/to/your/image"
-    image_path = "static/assets/img/p_green.jpg"
     image = Image.open(image_path)
 
     image_array = np.array(image)
